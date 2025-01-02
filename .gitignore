@@ -1,0 +1,10 @@
+/target/
+/Frameium/target
+/Frameium/.metadata/
+/Frameium/.idea/*
+/Frameium/.idea/
+/Frameium/ExtentReports/
+/Frameium/ExtentReports/*
+/Frameium/test-output/
+/Frameium/test-output/*
+

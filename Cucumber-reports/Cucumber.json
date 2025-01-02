@@ -1,0 +1,886 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-01T12:17:43.412Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4451705200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Valid login and logout",
+        "description": "",
+        "id": "login-functionality;valid-login-and-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 3029800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.updateTestOutcome(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 847895800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.closeDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3507000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6466675900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5929700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User opens Url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.frameium.stepdef.ClimateXUIStepdef.user_opens_url(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 6977200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4982400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3487700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.navigateToLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 4540000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2901460400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2990100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I perform a valid login",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.performValidLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 3127800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29956000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2543400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.verifyLoginSuccess()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2791800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3476216900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I perform a logout",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.performLogout()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2495100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70740300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2990100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I should be logged out",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.verifyLogoutSuccess()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2005400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-01T12:18:02.441Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4982100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login with special characters",
+        "description": "",
+        "id": "login-functionality;login-with-special-characters",
+        "after": [
+          {
+            "result": {
+              "duration": 2001900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.updateTestOutcome(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 40630500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.closeDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1206000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2037700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2069400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.navigateToLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1011000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 558199300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 944300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I perform a login with special characters",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.performSpecialCharacterLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40469100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I should see an error message for special character login",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.verifyErrorMessageForSpecialCharacterLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2105800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-01T12:18:03.307Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5420900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Locked user login",
+        "description": "",
+        "id": "login-functionality;locked-user-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1042100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.updateTestOutcome(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 42182000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.closeDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1439700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2255100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.navigateToLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2724155600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I perform a login for a locked-out user",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.performLockedUserLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1315600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35641600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1192600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I should see an error message for locked user login",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.verifyErrorMessageForLockedUserLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 992200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-01T12:18:06.332Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4137100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Invalid login",
+        "description": "",
+        "id": "login-functionality;invalid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1354800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.updateTestOutcome(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 91755000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.closeDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2237600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3423600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1487300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.navigateToLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 887000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2616527400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1402300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I perform an invalid login",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.performInvalidLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1011300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35419300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1024000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I should see an error message for invalid login",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.verifyErrorMessageForInvalidLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-01T12:18:09.367Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5207000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Empty login",
+        "description": "",
+        "id": "login-functionality;empty-login",
+        "after": [
+          {
+            "result": {
+              "duration": 995800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.updateTestOutcome(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 53879400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.closeDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1163700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.frameium.stepdef.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3984300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1941100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.navigateToLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180248900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1021700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I perform an empty login",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.performEmptyLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1003200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41045500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 928600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I should see an error message for empty login",
+            "match": {
+              "location": "com.frameium.stepdef.Swag.LoginSteps.verifyErrorMessageForEmptyLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1002000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Swag/LoginPage.feature",
+    "tags": []
+  }
+]

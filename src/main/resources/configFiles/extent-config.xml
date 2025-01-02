@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+    <!-- report theme --> <!-- standard, dark -->
+    <theme>standard</theme>
+  
+    <!-- document encoding -->  <!-- defaults to UTF-8 -->
+    <encoding>UTF-8</encoding>
+    
+    <!-- protocol for script and stylesheets -->   <!-- defaults to https -->
+    <protocol>https</protocol>
+    
+    <!-- title of the document -->
+    <documentTitle>TestHouse - Frameium Framework</documentTitle>
+    
+    <!-- report name - displayed at top-nav -->
+   
+    
+     <!-- report name - displayed at top-nav -->
+        <reportName>
+       <image id="image-zoom"><![CDATA[<img src="https://cms.technopark.org/zcmspg/zupload/5363/cmp_detail/15291446981673385006_Testhouse%20Logo%20Transparent%202.png" width="90" height="15" />
+          ]]>
+		</image>
+          
+        
+         
+        </reportName>
+    
+    <!-- global date format override -->  <!-- defaults to yyyy-MM-dd -->
+    <dateFormat>yyyy-MM-dd</dateFormat>
+    
+    <!-- global time format override -->   <!-- defaults to HH:mm:ss -->
+    <timeFormat>HH:mm:ss</timeFormat>
+    
+    <!-- custom javascript -->
+    <scripts>
+      <![CDATA[
+        $(document).ready(function() {
+       
+      $("#image-zoom").src("src",src);
+	  $("#image-zoom").append("src",src);
+    });
+      ]]>
+    </scripts>
+    
+    <!-- custom styles -->
+    <styles>
+    <![CDATA[
+       .badge-primary{color: black;
+       background-color: white;}
+      ]]>
+</styles>
+  </configuration>
+</extentreports>

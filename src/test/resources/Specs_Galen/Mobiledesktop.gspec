@@ -1,0 +1,91 @@
+@objects
+    Heading_img             id  j_idt24
+    User_name_Text_box      id  loginForm:userName
+    User_password_Text_box  id  loginForm:password
+    Sign_in_button          id  loginForm:j_idt30
+    facilityLabel           id  loginForm:facilityId_label
+   
+=login desktop=
+@on desktop
+    Heading_img:
+        height 251px
+        width 358px
+        centered horizontally inside screen
+        above User_name_Text_box
+   
+    User_name_Text_box:
+        height 35px
+        width 310px
+        inside screen 291px top, 527px left, 529px right, 263px bottom
+        centered horizontally inside screen
+        above User_password_Text_box
+        below Heading_img
+        css font-size is "14px"
+        css font-family contains "Open Sans"
+
+    User_password_Text_box:
+        height 35px
+        width 310px
+        centered horizontally inside screen
+        below User_name_Text_box
+        inside screen 346px top, 527px left, 529px right, 208px bottom
+        css font-size is "14px"
+        css font-family contains "Open Sans"
+    
+    facilityLabel:
+        width 308px     
+        height 33px
+        centered horizontally inside screen
+        below User_password_Text_box
+        above Sign_in_button
+        inside screen 402px top, 528px left, 530px right, 154px bottom
+   
+    Sign_in_button:
+        height 35px
+        width 310px
+        centered horizontally inside screen
+        below facilityLabel
+        inside screen 456px top, 527px left, 529px right, 98px bottom
+        
+=login mobile=
+@on mobile 
+        
+      Heading_img:
+        height 251px
+        width 358px
+        centered horizontally inside screen
+        above User_name_Text_box
+   
+    User_name_Text_box:
+        height 35px
+        width 310px
+        inside screen 315px top, 95px left, 95px right, 291px bottom
+        centered horizontally inside screen
+        above User_password_Text_box
+        below Heading_img
+        css font-size is "14px"
+        css font-family contains "Open Sans"
+
+    User_password_Text_box:
+        height 35px
+        width 310px
+        centered horizontally inside screen
+        below User_name_Text_box
+        inside screen 370px top, 95px left, 95px right, 236px bottom
+        css font-size is "14px"
+        css font-family contains "Open Sans"
+    
+    facilityLabel:
+        width 308px     
+        height 33px
+        centered horizontally inside screen
+        below User_password_Text_box
+        above Sign_in_button
+        inside screen 426px top, 96px left, 96px right, 182px bottom
+   
+    Sign_in_button:
+        height 35px
+        width 310px
+        centered horizontally inside screen
+        below facilityLabel
+        inside screen 480px top, 95px left, 95px right, 126px bottom  

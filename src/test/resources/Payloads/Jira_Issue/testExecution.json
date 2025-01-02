@@ -1,0 +1,18 @@
+{
+  "projectKey": "FR",
+  "testCaseKey": "FR-T5",
+  "testCycleKey": "FR-R5",
+  "statusName": "In Progress",
+  "testScriptResults": [
+    {
+      "statusName": "In Progress",
+      "actualEndDate": "2023-05-20T13:15:13Z",
+      "actualResult": "User logged in successfully"
+    }
+  ],
+  "actualEndDate": "2023-05-20T13:15:13Z",
+  "executionTime": 120000,
+  "executedById": "5b10a2844c20165700ede21g",
+  "assignedToId": "5b10a2844c20165700ede21g",
+  "comment": "Test failed user could not login"
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+.triangle-right {
+width: 0;
+height: 0;
+;border-left: 1450px solid white;
+;border-bottom: 250px solid transparent;
+position: relative;
+}
+.triangle-left {
+width: 0;
+height: 0;
+border-top: 150px solid transparent;
+border-right: 850px solid #d3003f;
+border-bottom: 40px solid transparent;
+top: 6px;
+right:4px;
+position: absolute;
+}
+.triangle-bottomright {
+width: 0;
+height: 0;
+border-top: 150px solid transparent;
+border-right: 850px solid #d3003f;
+border-bottom: 4px solid transparent;
+position: absolute;
+right: 0px;
+bottom: 0px;
+}
+.triangle-bottomleft {
+width: 0;
+height: 0px;
+border-left: 1px solid transparent;
+border-right: 850px solid transparent;
+border-bottom: 200px solid #d3003f;
+}
+.logo{
+position: absolute;
+z-index: 1;
+top: 30px;
+}
+body{
+background-color: #1f1f1f;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.canvasjs-chart-credit{
+content-visibility: hidden;
+backface-visibility: hidden;
+}
+table {
+border-collapse: collapse;
+font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+padding: 15px;
+}
+table th {
+background-color: #db4e44;
+}
+able thead td {
+background-color: #32CD32;
+color: #ffffff;
+font-weight: bold;
+font-size: 13px;
+border: 1px solid #54585d;
+}
+table tbody td {
+color: #636363;
+border: 1px solid #dddfe1;
+}
+table tbody tr {
+background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+background-color: #ffffff;
+}
+h1 {
+color: white;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 250%;
+}
+.skill-bars{width: 350px;background: transparent;border-radius: 10px;}
+.skill-bars .bar{margin: 20px 0;}
+.skill-bars .bar:first-child{margin-top: 0px;}
+.skill-bars .bar .info{margin-bottom: 5px;}
+.skill-bars .bar .info span{font-weight: 500;font-size: 17px;opacity: 0;animation: showText 0.5s 1s linear forwards;color: white;}
+@keyframes showText {100%{opacity: 1;}}
+.skill-bars .bar .progress-line{height: 10px;width: 100%;background: #f0f0f0;position: relative;transform: scaleX(0);transform-origin: left;border-radius: 10px;box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),0 1px rgba(255,255,255,0.8);animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;}
+@keyframes animate {100%{transform: scaleX(1);}}
+.bar .progress-line span{height: 100%;position: absolute;border-radius: 10px;transform: scaleX(0);transform-origin: left;animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;}
+.bar .progress-line.critical span{width: 20px;background: red;}
+.bar .progress-line.serious span{width: 0px;background: orange;}
+.bar .progress-line.moderate span{width: 20px;background: yellow;}
+.bar .progress-line.minor span{width: 10px;background: blue;}
+.progress-line span::before{position: absolute;content: "";top: -10px;right: 0;height: 0;width: 0;border: 7px solid transparent;border-bottom-width: 0px;border-right-width: 0px;border-top-color: #000;opacity: 0;animation: showText2 0.5s 1.5s linear forwards;}
+.progress-line span::after{position: absolute;top: -28px;right: -200px;font-weight: 500;background: white;color: black;padding: 1px 8px;font-size: 12px;border-radius: 3px;opacity: 0;animation: showText2 0.5s 1.5s linear forwards;}
+@keyframes showText2 {100%{opacity: 1;}}
+.progress-line.critical span::after{content: "2";}
+.progress-line.serious span::after{content: "0";}
+.progress-line.moderate span::after{content: "2";}
+.progress-line.minor span::after{content: "1";}
+.bloc3
+{
+width: 28%;
+color: white;
+float: left;
+height:360px;
+padding-bottom: 10px;
+padding: 25px 30px;
+background-color: transparent;
+font-family: Tahoma, Geneva, sans-serif;
+border-radius: 10px;
+border-style: double;
+border-color: white;
+}
+.bloc1
+{
+width: 28%;
+height:360px;
+float: left;
+padding-bottom: 10px;
+padding: 25px 30px;
+border-radius: 10px;
+border-style: double;
+border-color: white;
+}
+.bloc2
+{
+background-color: transparent; 
+width: 30%;
+height:360px;
+float:left;
+padding-bottom: 10px;
+overflow: hidden;
+z-index:1;
+border-style: double;
+border-color: white;
+padding: 25px 30px;
+border-radius: 10px;
+}
+.dummy
+{
+width: 55%;
+height:100px;
+float:left;
+background-color: #100014;
+top: -20px;
+z-index:2;
+position: relative;
+}
+h3{
+color: white;
+font-family: Tahoma, Geneva, sans-serif;
+}
+.pagecount span::after{content: "1";}
+.violationscount span::after{content: "5";}
+</style>
+<head>
+<div class="triangle-right"></div>
+<div class="logo"><img src="https://www.testhouse.net/wp-content/uploads/2021/08/LOGO_Testhouse.png" width="350" alt="My Image" /></div>
+<div class="triangle-left" style="float:right;"></div>
+<h1 align ="center">Accessibility Violation Test Report </h1><br>
+<div class="bloc3">
+<h3>Summary</h3>
+<ul><li>Reviewed on:&nbsp;  Wed Feb 28 17:29:57 IST 2024 </span></li><br>
+<li>Analyzed Page URL: &nbsp;https://www.iwgplc.com/en-gb/enterprise/network </span></li><br>
+<li>Total Pages Accessed:&nbsp;<div class="pagecount" style="display:inline;"><span></span></div></li><br>
+<li>Total Rule Violations:&nbsp; <div class="violationscount" style="display:inline;"><span></span></div></li></ul><br>
+</div>
+<div class="bloc1"><div class="skill-bars">
+<h3>Accessibility Violation by Severity</h3>
+<div class="bar">
+<div class="info">
+<span>Critical</span>
+</div>
+<div class="progress-line critical">
+<span></span>
+</div>
+</div>
+<div class="bar">
+<div class="info">
+<span>Serious</span>
+</div>
+<div class="progress-line serious">
+<span></span>
+</div>
+</div>
+<div class="bar">
+<div class="info">
+<span>Moderate</span>
+</div>
+<div class="progress-line moderate">
+<span></span>
+</div>
+</div>
+<div class="bar">
+<div class="info">
+<span>Minor</span>
+</div>
+<div class="progress-line minor">
+<span></span>
+</div>
+</div>
+</div>
+</div></div>
+<div class="bloc2">
+<h3>Overall Accessibility Coverage</h3>
+<div id="chartContainer" style="height: 350px; width:55%;">
+</div>
+<div class="dummy"></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<script type="text/javascript">
+window.onload = function () {
+var chart = new CanvasJS.Chart("chartContainer",
+{
+backgroundColor: "transparent",
+legend:{
+fontColor: 'white',
+verticalAlign: "top",
+horizontalAlign: "center",
+fontstyle: 'Tahoma, Geneva, sans-serif'
+},
+data: [
+{
+type: "doughnut",
+showInLegend: true,
+dataPoints: [
+{  y: 1, legendText:"Passed 1", color: "Green"},
+{  y: 0, legendText:"Failed 0", color: "Red" },
+{  y: 0, legendText:"Skipped 0", color: "Yellow" }
+]
+}
+]
+});
+chart.render();
+}
+</script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script></head>
+<body>
+<br> <br> <br>
+<h3>PageUrl::</h3><table align ="center">
+<tr>
+<th>Sl.No</th>
+<th>Violations</th>
+<th>Standards Violated</th>
+<th>Severity</th>
+<th>Help URL</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>Required ARIA attributes must be provided</td>
+<td>WCAG2A,WCAG412</td>
+<td>Critical
+<td><a href=https://dequeuniversity.com/rules/axe/3.1/aria-required-attr?application=axeAPI>Click here</a> </td>
+</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Headings must not be empty</td>
+<td>BEST-PRACTICE</td>
+<td>Minor
+<td><a href=https://dequeuniversity.com/rules/axe/3.1/empty-heading?application=axeAPI>Click here</a> </td>
+</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Form elements must have labels</td>
+<td>WCAG2A,WCAG332,WCAG131,SECTION508,SECTION508.22.N</td>
+<td>Critical
+<td><a href=https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI>Click here</a> </td>
+</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Page must have one main landmark</td>
+<td>BEST-PRACTICE</td>
+<td>Moderate
+<td><a href=https://dequeuniversity.com/rules/axe/3.1/landmark-one-main?application=axeAPI>Click here</a> </td>
+</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>All page content must be contained by landmarks</td>
+<td>BEST-PRACTICE</td>
+<td>Moderate
+<td><a href=https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI>Click here</a> </td>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "projectKey": "FR",
+  "name": "Check axial pump",
+  "description": "Regression test cycle 1 to ensure no breaking changes",
+  "plannedStartDate": "2023-05-19T13:15:13Z",
+  "plannedEndDate": "2024-05-20T13:15:13Z",
+  "jiraProjectVersion": 10000,
+  "statusName": "In Progress",
+  "customFields": null,
+  "method": 1,
+  "issues":["FR-3"],
+  "cycleId": 30521416,
+  "folderId": 19739685,
+  "assigneeType": null
+}

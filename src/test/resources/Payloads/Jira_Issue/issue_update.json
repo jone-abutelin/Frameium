@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "summary": "Api Updated error 12",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Updated issue description",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

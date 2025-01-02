@@ -1,0 +1,55 @@
+{
+  "testScenarios": [
+    {
+      "projectKey": "FR",
+      "testScenario": "Processing a purchase order for a current customer",
+      "Test Scenario ID": "TS001",
+      "testCases": [
+        {
+          "testCaseName": "Process purchase order for an existing customer",
+          "Test ID": "TS001_TC001",
+          "purpose": "To verify that the system correctly processes a purchase order for an existing customer",
+          "preConditions": "A purchase order has been received and the customer exists in the system",
+          "testCasePriority": "High",
+          "designer": "Test Architect",
+          "steps": [
+            {
+              "Step number": "1",
+              "description": "Receive the purchase order",
+              "testData": "Purchase order details",
+              "expectedResult": "Purchase order is received successfully"
+            },
+            {
+              "description": "Check if the customer is a current customer",
+              "expectedResult": "System identifies the customer as a current customer",
+              "Step number": "2",
+              "testData": "Customer ID from the purchase order"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "projectKey": "FR",
+      "testScenario": "Processing a purchase order for a new US customer",
+      "Test Scenario ID": "TS002",
+      "testCases": [
+        {
+          "testCaseName": "Process a purchase order for a new US customer",
+          "Test ID": "TS002_TC001",
+          "purpose": "To verify that the system correctly processes a purchase order for a new customer from the US",
+          "preConditions": "The system is operational and accessible. The user has the necessary permissions to process orders.",
+          "testCasePriority": "High",
+          "designer": "Test Architect",
+          "steps": [
+            {
+              "description": "Receive a purchase order",
+              "testData": "Purchase order details",
+              "expectedResult": "The system acknowledges the receipt of the purchase order"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

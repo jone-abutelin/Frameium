@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<div class="triangle-right"></div>
+<div class="logo"><img src="https://www.testhouse.net/wp-content/uploads/2021/08/LOGO_Testhouse.png" width="350" alt="My Image" /></div>
+<div class="triangle-left"></div>
+<h1 style="text-align:center;">Client-Side Performance Test Report </h1><br><br>
+<div class="bloc3">
+<h3>Summary</h3>
+<ul><li>Reviewed on:&nbsp; <div class="date" style="display:inline;"><span></span></div></li><br>
+<li>Analyzed Page URL:&nbsp; <div class="url" style="display:inline;"><span></span></div></li><br>
+<li>Total Pages Accessed:&nbsp; <div class="pagecount" style="display:inline;"><span></span></div></li><br>
+</ul><br>
+</div>
+<div class="bloc2">
+<h3>Pages Accessed</h3>
+<div>
+<ul>
+<li><div class="ParaBank-About-Us"><span></span></div></li><br>
+<li><div class="ParaBank-Services"><span></span></div></li><br>
+</ul> 
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<script nonce="undefined" src="https://cdn.zingchart.com/zingchart.min.js"></script>
+</head>
+<body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="blockgraph">
+<div class="skill-bars" style="align:center">
+<h3 class="heading"> PageWise Performance</h3><br><br>
+<div class="bar">
+<div class="info">
+<span>ParaBank | About Us</span>
+</div>
+<div class="progress-line ParaBank-About-Us">
+<span></span>
+</div>
+</div>
+<div class="bar">
+<div class="info">
+<span>ParaBank | Services</span>
+</div>
+<div class="progress-line ParaBank-Services">
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div class="blockgauge"><div id='myChart'></div></div>
+<br>
+<div class="score">SCORE:&nbsp;<span></span></div>
+<br> <br><br> <br><br> <br><br> <br><br> <br><br> <br> <br><br> <br><br> <br><br> <br><br> <br><br><br><br>
+<h2 align ="center">Metrics</h2>
+<div class="liststyle">
+<ul>
+<li><span class="metric">FCP </span>- Time taken to load the first piece of DOM content after a user navigates to your page.</li>
+<li><span class="metric">LCP  </span>- LCP measures the time from when the user initiates loading the page until the largest image or text block is rendered within the viewport.</li>
+<li><span class="metric">CLS </span> - calculates the visual stability of a given web page.</li>
+<li><span class="metric">Speed Index  </span>- measures how quickly your page is visually complete above-the-fold </li>
+<li><span class="metric">Time to Interactive  </span>- metric that captures how quickly a site is ready for user interaction after it loads</li>
+<li><span class="metric">Total Blocking Time </span> - measures the usability of the web page during the loading </li>
+</ul> </div> <br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h2><div class=ParaBank-About-Us style="text-align:center;"><span></span></div></h2>
+<br><br>
+<div><table align ="center">
+<tr>
+<td style="color: green">First Contentful Paint (FCP)</td>
+<td style="color: red">1.3 s</td>
+<td style="color: green">Speed Index</td>
+<td style="color: red">4.2 s</td>
+<td style="color: green">Largest Contentful Paint (LCP)</td>
+<td style="color: red">1.7 s</td>
+</tr>
+<tr>
+<td style="color: green">Time to Interactive</td>
+<td style="color: red">1.3 s</td>
+<td style="color: green">Total Blocking Time</td>
+<td style="color: red">0 ms</td>
+<td style="color: green">Cumulative Layout Index(CLS)</td>
+<td style="color: red">0</td>
+</tr> </table> </div><br>
+<h2><div class=ParaBank-Services style="text-align:center;"><span></span></div></h2>
+<br><br>
+<div><table align ="center">
+<tr>
+<td style="color: green">First Contentful Paint (FCP)</td>
+<td style="color: red">1.3 s</td>
+<td style="color: green">Speed Index</td>
+<td style="color: red">3.8 s</td>
+<td style="color: green">Largest Contentful Paint (LCP)</td>
+<td style="color: red">1.3 s</td>
+</tr>
+<tr>
+<td style="color: green">Time to Interactive</td>
+<td style="color: red">1.3 s</td>
+<td style="color: green">Total Blocking Time</td>
+<td style="color: red">0 ms</td>
+<td style="color: green">Cumulative Layout Index(CLS)</td>
+<td style="color: red">0</td>
+</tr> </table> </div><br>
+<br><br><br>
+<br> <br> <br>
+<script>
+ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "b55b025e438fa8a98e32482b5f768ff5"];
+var myConfig7 = {
+"type": "gauge",
+"background-color": "transparent",
+"horizontalAlign": "center",
+"scale-r": {
+"aperture": 200,
+"values": "0:100:20",
+"center": {
+"size": 18,
+"border-color": "none"
+},
+"ring": {
+"size": 25,
+"rules": [{
+"rule": "%v >= 0 && %v <= 20",
+"background-color": "red"
+},
+{
+"rule": "%v >= 20 && %v <= 40",
+"background-color": "orange"
+},
+{
+"rule": "%v >= 40 && %v <= 60",
+"background-color": "yellow"
+},
+{
+"rule": "%v >= 60 && %v <= 80",
+"background-color": "blue"
+},
+{
+"rule": "%v >= 80 && %v <=100",
+"background-color": "green"
+}
+]
+},
+"labels": ["Very Poor", "Poor", "Fair", "Good", "Great", "Excellent"],  //Scale Labels
+item: {    //Scale Label Styling
+'font-color': "white",
+'font-family': "Georgia, serif",
+'font-size':13,
+'font-weight': "bold",
+'font-style': "normal",
+'offset-r': -6,    //To adjust the placement of your scale labels.
+}
+},
+"plot": {
+"csize": "6%",
+"size": "100%",
+"background-color": "white",
+'value-box': { //Value Boxes
+placement: "center",  //Specify placement at "center", "tip", or "edge".
+text: "%v",
+'font-color': "black",
+'font-size':18,
+}
+},
+"series": [{
+"values": [97]
+}]
+};
+zingchart.render({
+id: 'myChart',
+data: myConfig7,
+height: "70%",
+width: "93%",
+});
+</script>
+<style>
+#myChart-license-text{
+content-visibility: hidden;
+backface-visibility: hidden;
+}
+.triangle-right {
+width: 0;
+height: 0;
+border-left: 1450px solid white;
+border-bottom: 250px solid transparent;
+position: relative;
+}
+.triangle-left {
+width: 0;
+height: 0;
+border-top: 150px solid transparent;
+border-right: 850px solid #d3003f;
+border-bottom: 40px solid transparent;
+top: 6px;
+right:4px;
+position: absolute;
+}
+.pagecount span::after{content: "2";}
+.logo{
+position: absolute;
+z-index: 3;
+top: 70px;
+left:60px;
+float:left;
+}
+body{
+background-color: #1f1f1f;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+table {
+border-collapse: collapse;
+font-family: Tahoma, Geneva, sans-serif;
+background-color: white;
+}
+table td {
+padding: 15px;
+}
+table th {
+background-color: white;
+}
+table thead td {
+background-color: white;
+color: #ffffff;
+font-weight: bold;
+font-size: 13px;
+border: 1px solid #54585d;
+}
+table tbody td {
+color: white;
+border: 1px solid black;
+border-width: 3px;
+}
+table tbody tr {
+background-color: white;
+}
+table tbody tr:nth-child(odd) {
+background-color: white;
+}
+h1 {
+color: white;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 250%;
+}
+.skill-bars{width: 550px;background: transparent;border-radius: 10px; left: 120px; position: absolute; border-width: 3px;}
+.skill-bars .bar{margin: 20px 0; margin-left:10px;}
+.skill-bars .bar:first-child{margin-top: 0px;}
+.skill-bars .bar .info{margin-bottom: 5px;}
+.skill-bars .bar .info span{font-weight: 500;font-size: 17px;opacity: 0;animation: showText 0.5s 1s linear forwards;color: white;}
+@keyframes showText {100%{opacity: 1;}}
+.skill-bars .bar .progress-line{height: 10px;width: 500px;background: #f0f0f0;position: relative;transform: scaleX(0);transform-origin: left;border-radius: 10px;box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),0 1px rgba(255,255,255,0.8);animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;}
+@keyframes animate {100%{transform: scaleX(1);}}
+.bar .progress-line span{height: 100%;position: absolute;border-radius: 10px;transform: scaleX(0);transform-origin: left;animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;}
+.progress-line span::before{position: absolute; top: -10px;right: 0;height: 0;width: 0;border: 7px solid transparent;border-bottom-width: 0px;border-right-width: 0px; opacity: 0;animation: showText2 0.5s 1.5s linear forwards;}
+.progress-line span::after{position: absolute;top: -28px;right: -40px;font-weight: 500;background: white;color: black;padding: 1px 8px;font-size: 12px;border-radius: 3px;opacity: 0;animation: showText2 0.5s 1.5s linear forwards;}
+@keyframes showText2 {100%{opacity: 1;}}
+.bloc3
+{
+width: 40%;
+color: white;
+margin-right: 5px;
+margin-left: 30px;
+float: left;
+height:230px;
+padding-bottom: 10px;
+padding: 25px 30px;
+background-color: transparent;
+font-family: Tahoma, Geneva, sans-serif;
+border-radius: 10px;
+border-style: double;
+border-color: white;
+margin-left:30px;
+}
+.bloc2
+{
+background-color: transparent;
+margin-right: 30px;
+width: 40%;
+height:230px;
+float:right;
+right:70px;
+padding-bottom: 10px;
+margin-left:50px;
+z-index:1;
+border-style: double;
+border-color: white;
+padding: 25px 30px;
+border-radius: 10px;
+}
+.blockgauge{
+background-color: transparent;
+margin-right: 30px;
+width: 40%;
+height:350px;
+float:right;
+right:70px;
+padding-bottom: 10px;
+margin-left:50px;
+border-style: double;
+border-color: white;
+padding: 25px 30px;
+border-radius: 10px;
+}
+.blockgraph{
+background-color: transparent;
+margin-right: 30px;
+width: 40%;
+height:350px;
+float:left;
+right:70px;
+padding-bottom: 10px;
+margin-left:30px;
+border-style: double;
+border-color: white;
+padding: 25px 30px;
+border-radius: 10px;
+}
+.dummy
+{
+width: 1600px;
+height:20px;
+background-color: black;
+top: 1px;
+z-index:2;
+position: relative;
+}
+h3,li,h2{
+color: white;
+font-family: Tahoma, Geneva, sans-serif;
+}
+.heading{
+text-align:center;
+}
+.liststyle{
+padding: 10px;
+margin: 20px;
+ font-size: 15px;
+left: 200px;
+ position: absolute;
+font-family: Verdana;
+text-align: left;
+border-radius: 10px;
+width: 70%;
+list-style: none;
+background-color:transparent;
+border-style: double;
+ border-color: white;
+padding: 25px 30px;
+border-radius: 10px;}
+.score{
+width:8%;
+height:1px;
+background-color: white;
+position: absolute;
+top: 1020px;
+left: 1045px;
+font-size:20px;
+font-family:Verdana;
+text-align:center;
+color: black;
+line-height: 12px;
+padding: 20px;
+border-style: double;
+border-color: black;
+border-radius: 10px;
+}
+.date span::after{content: "Mon Mar 06 14:16:51 IST 2023";}
+.url span::after{content: "https://parabank.parasoft.com/parabank/about.htm";}
+.metric{
+color: #d3003f;
+font-size:15px;
+font-family:Verdana;
+font-style:bold;
+}
+.score span::after{content: "97";}
+.pagecount span::after{content: "2";}
+.bar .progress-line.ParaBank-About-Us span{width: 485px; background: red;}
+.ParaBank-About-Us span::after{content: "ParaBank-About-Us";}
+.progress-line.ParaBank-About-Us span::after{content: "97";}
+.bar .progress-line.ParaBank-Services span{width: 490px; background: red;}
+.ParaBank-Services span::after{content: "ParaBank-Services";}
+.progress-line.ParaBank-Services span::after{content: "98";}
+</style>
+</body>
+</html>

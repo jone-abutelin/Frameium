@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T17:37:29 IST" name="Default suite" finished-at="2024-03-27T17:42:55 IST" duration-ms="325305">
+    <groups>
+      <group name="cucumber">
+        <method signature="Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" name="runScenario" class="com.frameium.stepdef.Hooks"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-27T17:37:29 IST" name="Default test" finished-at="2024-03-27T17:42:55 IST" duration-ms="325305">
+      <class name="com.frameium.runner.TestRunnerSaudiExch">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:37:29 IST" name="beforeSuite" finished-at="2024-03-27T17:37:29 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:37:29 IST" name="setUpClass" finished-at="2024-03-27T17:37:30 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:37:30 IST" name="beforeMethod" finished-at="2024-03-27T17:37:30 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.frameium.stepdef.Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:37:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-27T17:38:08 IST" duration-ms="37858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that items under Our Market > Main Market Section appears correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate page contents including arabic texts, text colours and table content]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:38:08 IST" name="afterMethod" finished-at="2024-03-27T17:38:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:38:08 IST" name="beforeMethod" finished-at="2024-03-27T17:38:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.frameium.stepdef.Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:38:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-27T17:38:37 IST" duration-ms="29094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that items under Listing > Become An Issuer Section Section appears correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate page contents including arabic texts, text colours and table content]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:38:37 IST" name="afterMethod" finished-at="2024-03-27T17:38:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:38:37 IST" name="beforeMethod" finished-at="2024-03-27T17:38:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.frameium.stepdef.Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:38:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-27T17:39:01 IST" duration-ms="24160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the colour of labels in the header section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate page contents including arabic texts, text colours and table content]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:39:01 IST" name="afterMethod" finished-at="2024-03-27T17:39:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:39:01 IST" name="beforeMethod" finished-at="2024-03-27T17:39:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.frameium.stepdef.Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:39:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-27T17:40:02 IST" duration-ms="60627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Market watch page and validate the header and content of the table"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate page contents including arabic texts, text colours and table content]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:40:02 IST" name="afterMethod" finished-at="2024-03-27T17:40:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:40:02 IST" name="beforeMethod" finished-at="2024-03-27T17:40:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.frameium.stepdef.Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:40:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-27T17:40:32 IST" duration-ms="30633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["FAIL - Verify that items under Listing > Become An Issuer Section Section appears correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate page contents including arabic texts, text colours and table content]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:40:32 IST" name="afterMethod" finished-at="2024-03-27T17:40:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:40:32 IST" name="beforeMethod" finished-at="2024-03-27T17:40:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.frameium.stepdef.Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:40:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-27T17:41:28 IST" duration-ms="55877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Arabic TEXT Validation - Verify that items under Our Market > Main Market Section appears correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate page contents including arabic texts, text colours and table content]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:41:28 IST" name="afterMethod" finished-at="2024-03-27T17:41:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:41:28 IST" name="beforeMethod" finished-at="2024-03-27T17:41:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.frameium.stepdef.Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:41:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-27T17:42:29 IST" duration-ms="60995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["FAIL - Arabic TEXT Validation Scenario - Verify that items under Our Market > Main Market Section appears correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate page contents including arabic texts, text colours and table content]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:42:29 IST" name="afterMethod" finished-at="2024-03-27T17:42:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=Hooks.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:42:29 IST" name="tearDownClass" finished-at="2024-03-27T17:42:55 IST" duration-ms="25374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.frameium.runner.TestRunnerSaudiExch@790da477]" started-at="2024-03-27T17:42:55 IST" name="afterTest" finished-at="2024-03-27T17:42:55 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.frameium.runner.TestRunnerSaudiExch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

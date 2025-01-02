@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Parallel" thread-count="2" parallel="tests">
+  <!--<test name="Android">
+        <parameter name="environment"        value="sit"/>
+        <parameter name="test.configuration" value="Desiredcapabilities.properties"/>
+        <parameter name="deviceName"             value="Pixel 4 API 30"/>
+        <parameter name="platformVersion"             value="11"/>
+        <parameter name="platformName"             value="Android"/>
+        <parameter name="automationName"             value="uiautomator2"/>
+        <parameter name="appPackage"             value="com.pcloudy.appiumdemo"/>
+        <parameter name="portNumber"             value="4723"/>
+        <classes>
+            <class name="com.testhouse.stepdef.Appium"/>
+        </classes>
+    </test>
+
+  <test name="AndroidOne">
+        <parameter name="environment"        value="sit"/>
+        <parameter name="test.configuration" value="Desiredcapabilities2.properties"/>
+        <parameter name="deviceName"              value="Galaxy M21"/>
+         <parameter name="platformVersion"             value="11"/>
+        <parameter name="platformName"             value="Android"/>
+        <parameter name="automationName"             value="uiautomator2"/>
+        <parameter name="appPackage"             value="com.pcloudy.appiumdemo"/>
+        <parameter name="portNumber"             value="4723"/>
+        <classes>
+            <class name="com.testhouse.stepdef.Appium"/>
+        </classes>
+    </test>-->
+    
+    <test name="Android">
+        <parameter name="environment"        value="sit"/>
+        <parameter name="test.configuration" value="Desiredcapabilities.properties"/>
+        <parameter name="deviceName"             value="Galaxy M21"/>
+        <parameter name="platformVersion"             value="11"/>
+        <parameter name="platformName"             value="Android"/>
+        <parameter name="automationName"             value="uiautomator2"/>
+        <parameter name="appPackage"             value="com.pozitron.qib"/>
+        <parameter name="portNumber"             value="4723"/>
+        <parameter name="username"               value="Test"></parameter>
+        <parameter name="password"               value="Test@"></parameter>
+        <classes>
+            <class name="com.testhouse.stepdef.QIBmob"/>
+        </classes>
+    </test>
+      
+</suite>

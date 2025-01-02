@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android One Regression Parallel" thread-count="2" parallel="tests">
+
+     <test name="Android">
+            <classes>
+                <class name="com.frameium.runner.MobileTestRunner"/>
+            </classes>
+        </test>
+
+<!--
+    <test name="Android Tow Regression Parallel">
+        <parameter name="environment"        value="sit"/>
+        <parameter name="test.configuration" value="Desiredcapabilities2.properties"/>
+        <parameter name="deviceName"              value="Pixel 4 API 30"/>
+        <parameter name="platformVersion"             value="11"/>
+        <parameter name="platformName"             value="Android"/>
+        <parameter name="automationName"             value="uiautomator2"/>
+        <parameter name="appPackage"             value="com.pcloudy.appiumdemo"/>
+        <parameter name="portNumber"             value="4723"/>
+        <parameter name="username"               value="12345"></parameter>
+        <parameter name="password"               value="12345"></parameter>
+        <classes>
+            <class name="com.testhouse.stepdef.Appium"/>
+        </classes>
+    </test>
+-->
+
+</suite>

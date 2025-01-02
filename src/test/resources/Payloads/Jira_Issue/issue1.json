@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "project": {
+      "key": "DEMO"
+    },
+    "summary": "Endpoint returns 500 error",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The endpoint resource is returning a 500 error when accessed."
+            }
+          ]
+        }
+      ]
+    },
+    "issuetype": {
+      "name": "Bug"
+    },
+    "priority": {
+      "name": "High"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@objects
+    header-container   id header
+    header css #header .navbar-brand
+    logo  css #header a img
+    image   css #img-home-devices
+    header-text   css h1
+   
+
+= Header Container =
+    header-container:
+        inside screen 0px top
+        width 100% of screen/width
+        height 50px
+
+= Header =
+    header:
+        text is "Galen Framework"
+        inside header-container 0px top left
+        width 246px
+        height 50px
+
+    logo:
+        inside header 8px left, 212px right, 12px bottom, 12px top
+        height 26px 
+        width 26px
+        
+
+    image:
+        left-of header-text 30px
+        height 185px 
+        width 555px
+        color-scheme 19% white, 4 to 5 % black, < 30% #f845b7
+        
+  
+    header-text:
+        text is "Galen Framework"
+        right-of image 30px
+        height 176px
+        width 555px  
+    
+   
+        
